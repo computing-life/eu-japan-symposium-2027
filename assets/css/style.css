@@ -258,3 +258,18 @@ h3 { font-size: 1.5rem; margin: var(--space-l) 0 var(--space-s); }
   .hero > .wrap > * { animation: none; }
   .btn { transition: none; }
 }
+.flyer {
+  margin: 2rem 0 0;
+}
+.flyer img {
+  display: block;
+  width: 240px;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid rgba(0, 0, 0, .12);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .08);
+}
+.flyer figcaption {
+  margin-top: .5rem;
+  font-size: .9rem;
+}
